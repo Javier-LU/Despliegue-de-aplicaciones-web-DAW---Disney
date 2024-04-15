@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Disney';
+    src: url('../fuentes/waltograph42.otf') format('woff2');   
+    font-weight: normal;  
+  }
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #046de8, #a811ff);
+   
+    
+  }
+  header {
+    font-family: 'Disney', sans-serif;
+ 
+  }
+  #root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #myContenedor{
+
+  }
+  #myHeader{
+    flex: 20%;
+
+    
+  }
+
+  #myNav{
+    flex: 5%
+  }
+
+  #mySection{
+
+    width: 70%;
+    height: calc(100vh - 400px);
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;  
+    margin-right: 15%;    
+  }
+
+  #myFooter{
+    position: sticky;
+    bottom: 0;
+    height: 100px; /* Altura del footer */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
